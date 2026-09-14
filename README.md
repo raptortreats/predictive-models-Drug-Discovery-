@@ -56,7 +56,7 @@ A previous `Visulaization/sol.csv` was a **byte-identical duplicate** of the cur
 
 ## How to run
 
-Python 3.10 or 3.11 recommended. RDKit is simplest from conda-forge if the pip wheel fails.
+Python **3.10–3.12**. `requirements.txt` pins a 2024-era stack that still installs; the original notebooks ran on Anaconda/Windows with **xgboost 1.6.2** and **numpy 1.21.5**. RDKit is simplest from conda-forge if the pip wheel fails.
 
 ```bash
 git clone https://github.com/raptortreats/predictive-models-Drug-Discovery-.git
