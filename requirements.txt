@@ -1,0 +1,17 @@
+# Pinned for a Python 3.10–3.11 environment close to the 2022 notebooks.
+# Original run used Anaconda on Windows with xgboost==1.6.2 and numpy==1.21.5.
+# RDKit: if the pip wheel is unavailable on your platform, use:
+#   conda install -c conda-forge rdkit
+numpy==1.24.4
+pandas==1.5.3
+scikit-learn==1.2.2
+xgboost==1.6.2
+matplotlib==3.7.3
+seaborn==0.12.2
+scipy==1.10.1
+openpyxl==3.1.2
+jupyter==1.0.0
+notebook==6.5.6
+ipykernel==6.25.2
+# Oldest RDKit wheel currently published on PyPI (2022 conda builds are not on pip).
+rdkit==2023.9.6
